@@ -24,3 +24,11 @@ where market_code='Mark001'`
 
 `SELECT * FROM sales.transactions
 WHERE currency = 'USD'`
+
+6. Show transactions in 2020, JOIN by date table 
+
+`SELECT sales.transactions.*, sales.date.*
+FROM sales.transactions 
+INNER JOIN sales.date 
+ON sales.transactions.order_date = sales.date.date 
+WHERE year = '2020'`
