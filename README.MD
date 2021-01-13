@@ -23,5 +23,4 @@ where market_code='Mark001'`
 5. Show all transactions where currency is US dollars 
 
 `SELECT * FROM sales.transactions
-
 WHERE currency = 'USD'`
