@@ -12,4 +12,4 @@
 3. Show all transactions for Mumbhai market, market code for Mumbhai is Mark001
 
 `SELECT * FROM sales.transactions 
-WHERE market_code = 'Mark002'
+WHERE market_code = 'Mark002`
