@@ -24,4 +24,4 @@ where market_code='Mark001'`
 
 `SELECT * FROM sales.transactions
 
-WHERE currency = 'USD'
+WHERE currency = 'USD'`
