@@ -3,5 +3,7 @@
 ### Data Analysis using SQL commands 
 1. Show all customer records 
 
-`SELECT * FROM customers;`
+`SELECT * FROM sales.customers;`
+2. Show total amount of customers
+`SELECT COUNT(*) FROM sales.customers`
 
