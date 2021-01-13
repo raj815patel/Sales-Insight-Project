@@ -19,3 +19,8 @@ WHERE market_code = 'Mark002`
 `SELECT distinct product_code 
 FROM sales.transactions 
 where market_code='Mark001'`
+
+5. Show all transactions where currency is US dollars 
+
+`SELECT * FROM sales.transactions 
+WHERE currency = 'USD'`
