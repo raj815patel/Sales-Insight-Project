@@ -1,2 +1,2 @@
 # DataAnalysisProject
-##Files folders contains of content from sales insights data analysis project
+## Files folders contains of content from sales insights data analysis project
