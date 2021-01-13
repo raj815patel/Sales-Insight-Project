@@ -45,3 +45,6 @@ WHERE year = '2020'`
 
 `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and and date.month_name="April" and (transactions.currency="INR\r" or transactions.currency="USD\r")`
 
+9. Show total revenue in the year 2020 in Chennai 
+
+`SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and transactions.market_code="Mark001"`
