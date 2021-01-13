@@ -9,7 +9,13 @@
 
 `SELECT COUNT(*) FROM sales.customers`
 
-3. Show all transactions for Mumbhai market, market code for Mumbhai is Mark001
+3. Show all transactions for Mumbhai market, market code for Mumbhai is Mark002
 
 `SELECT * FROM sales.transactions 
 WHERE market_code = 'Mark002`
+
+4. Show unique product codes sold in Chennai 
+
+`SELECT distinct product_code 
+FROM sales.transactions 
+where market_code='Mark001'`
