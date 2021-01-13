@@ -32,3 +32,11 @@ FROM sales.transactions
 INNER JOIN sales.date 
 ON sales.transactions.order_date = sales.date.date 
 WHERE year = '2020'`
+
+7. Show total revenue in the year 2020
+
+`SELECT SUM(sales.transactions.sales_amount)
+FROM sales.transactions 
+INNER JOIN sales.date 
+ON sales.transactions.order_date = sales.date.date 
+WHERE year = '2020'`
